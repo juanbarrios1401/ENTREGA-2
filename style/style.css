@@ -1,0 +1,706 @@
+body {
+
+    background-image: url(../assets/Kawsaki-principal.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+/* DENTRO DE ESTAS SECUENCIAS DE CODIGO, ESTA TODO LO DEL INDEX*/
+
+.inicio {
+
+
+    background-color: rgba(83, 83, 83, 0.459);
+    border: 1px solid #32cd32;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.nombremenu1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nombremenu {
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 5px solid  #32cd32 ;
+    width: 500px;
+}
+
+.menu ul {
+
+    background-color: rgba(83, 83, 83, 0.459);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #32cd32;
+    padding-left: 35%;
+    padding-right: 35%;
+    list-style: none;
+
+}
+
+.listado:hover {
+
+    background-color: #32cd325e;
+    border-radius: 2px;
+    margin: 5%;
+    padding: 3%;
+
+}
+
+.listado {
+
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+
+.conteiner {
+
+    display: flex;
+    justify-content: center;
+
+
+
+
+
+
+
+
+}
+
+.conteiner-intro {
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(83, 83, 83, 0.459);
+    border-radius: 10px;
+    display: grid;
+    margin: 5%;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(4, 120px);
+    grid-template-areas:
+
+        "item1 item1 item2 item2"
+        "item1 item1 item2 item2"
+        "item3 item3 item2 item2"
+        "item3 item3 item2 item2"
+    ;
+}
+
+.intro1 {
+
+
+    grid-area: item1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro1 h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2rem;
+
+
+}
+
+.intro1 p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+
+
+}
+
+.intro2 {
+
+    display: flex;
+    grid-area: item2;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+
+
+.intro2 video {
+
+    width: 99%;
+    height: 99%;
+    object-fit: fill;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+
+}
+
+.intro3 {
+
+
+    grid-area: item3;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro3 img {
+
+    width: 100%;
+    height: 100%;
+
+
+}
+
+footer {
+
+    margin-top: 200px;
+}
+
+
+footer p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(83, 83, 83, 0.459);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #32cd32;
+    padding: 1%;
+}
+
+.menues {
+
+    margin-top: 400px;
+}
+
+/* ACA MISMO LO QUE HAGO ES MODIFICAR LOS TAMAÑOS DE IMAGEN DEL BOOSTRAP y LO PERTENECIENTE A "LANZAMIENTOS"*/
+
+
+.carousel-caption h5 {
+
+    color: white;
+    background-color: #000000c7;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.carousel-caption p {
+
+    color: white;
+    background-color: #000000c7;
+    border-radius: 5px;
+    font-size: 1.2rem;
+
+}
+
+.menu2 {
+    width: 50%;
+    padding-top: 5%;
+}
+
+.menu1 {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.lanzamiento {
+
+    margin-top: 4px;
+    margin-left: 8px;
+    padding-bottom: 13px;
+}
+
+.menulanzamiento ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(83, 83, 83, 0.459);
+    padding-top: 6px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #32cd32;
+    padding-left: 35%;
+    padding-right: 35%;
+    list-style: none;
+
+
+}
+
+.menulanzamiento ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+.menulanzamiento ul li a:hover {
+
+    background-color: #32cd325e;
+    border-radius: 2px;
+    margin: 5%;
+    padding: 3%;
+}
+
+.menulanzamiento {
+
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+/* ACA MISMO SE ENCUENTRA LO CORRESPONDIENTE AL MENU */
+
+
+.historia {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.historia a {
+
+    color: white;
+    background-color: #32cd325e;
+    text-decoration: none;
+    padding: 0.5%;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.menuhistoria ul {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(83, 83, 83, 0.459);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #32cd32;
+    padding-left: 35%;
+    padding-right: 35%;
+    list-style: none;
+
+
+}
+
+.menuhistoria ul li a {
+
+
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.menuhistoria ul li a:hover {
+
+    background-color: #32cd325e;
+    border-radius: 2px;
+    margin: 5%;
+    padding: 3%;
+}
+
+
+.conteinerh {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.conteiner-h {
+
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(83, 83, 83, 0.459);
+    border-radius: 10px;
+    margin: 5%;
+    font-size: 1.2rem;
+
+
+
+}
+
+.classhistoria1 {
+
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* APARTADO CONTACTO*/
+
+.titulocontacto {
+
+    display: flex;
+}
+
+.titulocontacto h1 {
+
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #32cd32;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5px;
+
+}
+
+
+
+.seccioncontacto form label {
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+
+}
+
+
+
+.seccioncontacto {
+
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #32cd32;
+    ;
+    padding: 30px;
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+
+}
+
+.seccioncontacto h4 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 1.7rem;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #32cd32;
+
+}
+
+.formularioconsulta {
+
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botonconsulta button {
+
+    border-radius: 5px;
+    padding-top: 5px;
+    align-items: center;
+
+}
+
+.botonconsulta {
+
+    padding-top: 5px;
+}
+
+.botonconsulta button:hover {
+
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #32cd32;
+    color: white;
+}
+
+
+/* ESTO MISMO PERTENECE EN PARTE A LA CODIFICACION DE LA PESTAÑA "CATALOGO"*/
+
+
+
+
+.motocicletasgrilla label {
+
+    color: white;
+    border: 2px solid #32cd32;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7474743a;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 7px;
+
+
+
+}
+
+
+.motocicletasgrilla img {
+
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid #32cd32;
+}
+
+.motocicletasgrilla {
+
+    display: grid;
+    margin: 10%;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 400px);
+    grid-template-areas:
+
+
+        "grilla1 grilla2"
+        "grilla3 grilla4"
+        "grilla5 grilla6"
+
+    ;
+}
+
+.grilla1 {
+
+
+    grid-area: grilla1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.grilla2 {
+
+    grid-area: grilla2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grilla3 {
+
+
+    grid-area: grilla3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grilla4 {
+
+    grid-area: grilla4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grilla5 {
+
+
+    grid-area: grilla5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grilla6 {
+
+    grid-area: grilla6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Aca mismo realiza la media queries unicamente para el INDEX*/
+
+@media (min-width:320px) and (max-width: 425px) {
+
+    body {
+
+        background-color: black;
+        background-image: none;
+        align-self: auto;
+    }
+
+    body h1 {
+
+        font-size: 1.3rem;
+    }
+
+    body h2 {
+
+        font-size: 0.7rem;
+    }
+
+    body p {
+
+        font-size: 0.7rem;
+    }
+
+    .menu {
+
+        padding-top: 10px;
+
+
+
+
+    }
+
+    .menu ul {
+
+        padding-left: 4%;
+        padding-right: 4%;
+        margin: 0%;
+        font-size: 0.6rem;
+    }
+
+
+    .conteiner {
+
+        padding-top: 10%;
+
+
+    }
+
+    .conteiner-intro {
+
+        border: 1px solid #32cd32;
+        grid-template-columns: repeat(3, 75px);
+        grid-template-rows: repeat(3, 200px);
+        grid-template-areas:
+
+            "item2 item2 item2 item2"
+            "item1 item1 item1 item1"
+            "item3 item3 item3 item3"
+
+        ;
+
+
+    }
+
+    .intro1 {
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .intro1 h1 {
+
+        font-size: 1.3rem;
+    }
+
+    .intro1 p {
+
+        font-size: 0.7rem;
+        padding-top: 2%;
+
+    }
+
+    .intro2 {
+
+
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom: 1px solid #32cd32;
+
+    }
+
+    .intro2 video {
+
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+
+    }
+
+
+
+
+
+    .intro3 img {
+
+        width: 70%;
+        height: 70%;
+
+
+
+    }
+
+    .intro3 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #32cd32;
+
+    }
+
+
+
+}
