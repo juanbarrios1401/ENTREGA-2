@@ -160,10 +160,8 @@ body {
 .intro2 video {
 
     width: 99%;
-    height: 99%;
-    object-fit: fill;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 5px;
+    
 
 
 
