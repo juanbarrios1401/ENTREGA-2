@@ -610,6 +610,11 @@ footer p {
 
     }
 
+    .intro2 video{
+
+        width: 90%;
+    }
+
     .menu ul {
 
         padding-left: 4%;
