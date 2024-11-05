@@ -1,24 +1,16 @@
-HOLA PROFES, LES DEJO MI TRABAJO.
+Hola profes.
+
+Con respecto a la entrega anterior, esta entrega es mediocre.
+Tuve asuntos personales y economicos con lo cual lidiar y resolver, con lo cual me llevaron
+a tener que trabajar mas de lo habitual y energeticamente no he podido cumplir con lo necesario.
+
+Asi mismo, dejo un avance que he hecho en el día de hoy para ir poniendome a tono con el proyecto final.
+
+Nose si habra recuperatorio o no, pero bueno, prefiero entregar algun avance a no entregar nada.
+
+Falta todo lo de SSAS y parte de mediaquaries con Bootstrap.
+
+Saludos y mil disculpas!
 
 
-POR CUESTIONES DE TIEMPO, Y NO EN MOTIVO DE BUSCAR UNA EXCUSA; HE INTENTADO HACER UNA PAGE BASTANTE SIMPLONA, PERO, TRATANDO DE UTILIZAR TODOS LOS RECURSOS DADOS.
-CABE RECALCAR QUE LA MAYOR PARTE DEL TIEMPO ESTOY TRABAJANDO, Y POR AHI SE ME HACE MUY COMPLICADO SENTARME CON DETENIMIENTO.
-EL MISMO TRABAJO LO HE REALIZADO ENTRE VIERNES, SABADO Y DOMINGO DE ESTA SEMANA.
-NO ESPERO LA MEJOR CALIFICACION, TENGO COSAS QUE MEJORAR, PERO CREO QUE ESTA BASTANTE GUIABLE PARA LLEGAR A SER APROBADO.
-ESTO LO ACLARO PORQUE HE VISTO PROYECTOS DE MIS COMPAÑEROS QUE ESTAN CREO, QUE AÑOS LUZ DE LO QUE INTENTE GENERAR, PERO BUENO, CREO QUE TENGO EL MOTIVO.
-
-
-DE IGUAL MANERA, HE UTILIZADO:
-
--DISPLAY FLEX.
--DISPLAY GRID.
--MEDIA QUARIES (MOBILE S,M,L).
--FORMULARIO FORM.
--GIT Y GITHUB.
--BOOSTRAP. (MENU LANZAMIENTOS)
-
-
-CREO QUE NO SE ME ESCAPA NADA MÁS, PERO SI HAY ALGO QUE SE MHAYA ESCAPADO, PROBABLEMENTE ESTE EN EL MISMO.
-
-SALUDOOOS!!
-
+PD: No les voy a fallar con el Final!
