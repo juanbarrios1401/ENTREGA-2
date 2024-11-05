@@ -29,13 +29,14 @@ body {
 
 }
 
-.nombremenu1{
+.nombremenu1 {
 
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .nombremenu {
 
     color: rgb(255, 255, 255);
@@ -44,7 +45,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #000000;
     border-radius: 10px;
-    border: 5px solid  #32cd32 ;
+    border: 5px solid #32cd32;
     width: 500px;
 }
 
@@ -161,7 +162,7 @@ body {
 
     width: 99%;
     border-radius: 5px;
-    
+
 
 
 
@@ -610,7 +611,159 @@ footer p {
 
     }
 
-    .intro2 video{
+    /* EN ESTA PARTE ES LA MEDIAQUARIES DE LA SECCION HISTORIA*/
+
+    .menuhistoria {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menuhistoria ul li a {
+
+        font-size: 0.7rem;
+
+    }
+
+    .menuhistoria ul li {
+
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .nombremenu {
+
+        font-size: 1.3rem;
+    }
+
+    .historia a {
+
+        font-size: 0.7rem;
+    }
+
+
+    /*HASTA ACA ES LA SECCION HISTORIA*/
+
+
+    /*ACA COMIENZA LA SECCION CATALOGO*/
+
+    .motocicletasgrilla {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 250px);
+        grid-template-areas: 
+
+            "grilla1"
+            "grilla2"
+            "grilla3"
+            "grilla4"
+            "grilla5"
+            "grilla6"
+        ;
+
+
+
+
+
+    }
+
+   
+    .grilla1 {
+
+
+        grid-area: grilla1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .grilla2 {
+
+        grid-area: grilla2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grilla3 {
+
+
+        grid-area: grilla3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grilla4 {
+
+        grid-area: grilla4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grilla5 {
+
+
+        grid-area: grilla5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grilla6 {
+
+        grid-area: grilla6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .motocicletasgrilla div label {
+
+        font-size: 0.7rem;
+        
+       
+        
+    }
+
+    .motocicletasgrilla div {
+
+        width: 300px;
+        
+    }
+
+    .motocicletas{
+
+       
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .menues{
+
+        text-align: center;
+    }
+
+
+    /* HASTA ACA ES LA SECCION CATALOGO*/
+
+ 
+
+
+
+    .intro2 video {
 
         width: 90%;
     }
