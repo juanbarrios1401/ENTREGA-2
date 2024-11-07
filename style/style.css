@@ -375,4 +375,78 @@ footer p {
   font-size: 1.2rem;
 }
 
+/*VARIABLE VERDE KAWASAKI*/
+/*----------------*/
+@media (min-width: 320px) and (max-width: 425px) {
+  body {
+    background-color: black;
+    background-image: none;
+    align-self: auto;
+  }
+  body .inicio1 {
+    display: flex;
+  }
+  body .inicio1 .inicio {
+    justify-content: center;
+    align-items: center;
+  }
+  body .inicio1 .inicio h1 {
+    font-size: 1.3rem;
+  }
+  body .inicio1 .inicio h2 {
+    font-size: 0.7rem;
+  }
+  body .inicio1 .inicio p {
+    font-size: 0.7rem;
+  }
+  body .menu {
+    padding-top: 10px;
+    width: 2%;
+  }
+  body .conteiner {
+    padding-top: 10%;
+  }
+  body .conteiner .conteiner-intro {
+    border: 1px solid #01D608;
+    grid-template-columns: repeat(3, 75px);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: "item2 item2 item2 item2" "item1 item1 item1 item1" "item3 item3 item3 item3";
+  }
+  body .conteiner .conteiner-intro .intro1 {
+    grid-area: item1;
+    align-items: center;
+    justify-content: center;
+  }
+  body .conteiner .conteiner-intro .intro1 h1 {
+    font-size: 1.3rem;
+  }
+  body .conteiner .conteiner-intro .intro1 p {
+    font-size: 0.7rem;
+    padding-top: 2%;
+  }
+  body .conteiner .conteiner-intro .intro2 {
+    grid-area: item2;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid #01D608;
+  }
+  body .conteiner .conteiner-intro .intro2 video {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  body .conteiner .conteiner-intro .intro3 {
+    grid-area: item3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #01D608;
+  }
+  body .conteiner .conteiner-intro .intro3 img {
+    width: 70%;
+    height: 70%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

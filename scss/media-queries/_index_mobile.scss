@@ -1,0 +1,129 @@
+/*VARIABLE VERDE KAWASAKI*/
+$color-verde: #01D608;
+
+
+@mixin grillas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------*/
+
+
+@media (min-width:320px) and (max-width: 425px) {
+    body {
+
+        background-color: black;
+        background-image: none;
+        align-self: auto;
+
+        .inicio1 {
+
+            display: flex;
+
+            .inicio {
+                justify-content: center;
+                align-items: center;
+                
+
+                h1 {
+
+                    font-size: 1.3rem;
+                   
+                }
+
+                h2 {
+
+                    font-size: 0.7rem;
+                }
+
+                p {
+
+                    font-size: 0.7rem;
+                }
+            }
+
+        }
+
+
+
+
+
+
+
+        .menu {
+            padding-top: 10px;
+            width: 2%;
+
+    
+        }
+
+        .conteiner {
+            padding-top: 10%;
+
+            .conteiner-intro {
+
+                border: 1px solid $color-verde;
+                grid-template-columns: repeat(3, 75px);
+                grid-template-rows: repeat(3, 200px);
+                grid-template-areas:
+
+                    "item2 item2 item2 item2"
+                    "item1 item1 item1 item1"
+                    "item3 item3 item3 item3"
+
+                ;
+
+                .intro1 {
+                    grid-area: item1;
+                    align-items: center;
+                    justify-content: center;
+
+                    h1 {
+
+                        font-size: 1.3rem;
+                    }
+
+                    p {
+
+                        font-size: 0.7rem;
+                        padding-top: 2%;
+
+                    }
+                }
+
+                .intro2 {
+
+                    grid-area: item2;
+                    border-top-right-radius: 10px;
+                    border-top-left-radius: 10px;
+                    border-bottom: 1px solid $color-verde;
+
+                    video {
+
+                        border-top-right-radius: 10px;
+                        border-top-left-radius: 10px;
+                        border-bottom-right-radius: 0px;
+                        border-bottom-left-radius: 0px;
+
+                    }
+
+                }
+
+                .intro3 {
+                    grid-area: item3;
+                    @include grillas;
+                    border-top: 1px solid$color-verde;
+
+                    img {
+
+                        width: 70%;
+                        height: 70%;
+                    }
+
+                }
+            }
+        }
+    }
+}
