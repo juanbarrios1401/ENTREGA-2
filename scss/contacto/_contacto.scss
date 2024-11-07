@@ -1,0 +1,82 @@
+/*VARIABLE VERDE KAWASAKI*/
+$color-verde: #01D608;
+
+
+.titulocontacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+    h1 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        width: 30%;
+        border: 5px solid $color-verde;
+    }
+
+}
+
+.seccioncontacto {
+
+    background-color: black;
+    border: 5px solid $color-verde;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    .formularioconsulta {
+
+        border-radius: 10px;
+        border: 5px solid grey;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            font-size: 1.7rem;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            border: 5px solid $color-verde;
+
+        }
+
+        .botonconsulta {
+
+            padding-top: 5px;
+
+            button {
+
+                border-radius: 5px;
+                padding: 5px;
+                align-items: center;
+
+            }
+
+            button:hover {
+
+                background-color: black;
+                border: 2px solid $color-verde;
+                color: white;
+            }
+        }
+    }
+}

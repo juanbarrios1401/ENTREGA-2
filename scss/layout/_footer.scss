@@ -1,3 +1,8 @@
+
+/*VARIABLE VERDE KAWASAKI*/
+$color-verde:#01D608;
+
+
 footer {
     margin-top: 200px;
 
@@ -9,7 +14,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-top: 5px solid #01D608;
+        border-top: 5px solid $color-verde;
         padding: 1%;
         
     }

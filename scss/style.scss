@@ -1,4 +1,13 @@
-@import "index.scss";
-@import "menu.scss";
-@import "gridindex";
-@import "footer"
+@import "reset/reset";
+@import "layout/index";
+@import "layout/menu";
+@import "layout/gridindex";
+@import "layout/footer";
+@import "historia/historia";
+@import "catalogo/catalogo";
+@import "contacto/contacto";
+@import "lanzamientos/lanzamientos";
+
+
+
+

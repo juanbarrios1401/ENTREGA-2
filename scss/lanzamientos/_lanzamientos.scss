@@ -1,0 +1,28 @@
+/*VARIABLE VERDE KAWASAKI*/
+$color-verde: #01D608;
+
+
+.menu1 {
+
+    display: flex;
+    justify-content: center;
+
+    .menu2 {
+        width: 50%;
+        padding-top: 5%;
+
+        .carousel-caption h5 {
+            color: white;
+            background-color: #000000c7;
+            border-radius: 5px;
+            font-size: 1.5rem;       
+        }
+        p {
+            color: white;
+            background-color: #000000c7;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+    }
+
+}
