@@ -11,6 +11,8 @@ Por otra parte las variables la he usado para 1 color, en este caso "color-verde
 Por que no lo puse en una carpeta aparte y lo declare en cada .scss?
 porque tengo problemas con los registros en mi pc, y fue muy tedioso hacer funca cada parcialL; a tal punto que en un momento se habia roto todo y tuve q volver a empezar sin haber guardado en la nube de git!.
 
+Por otra parte la parte animada la he hecho en el enlace de "volver a Inicio". Esta misma es con un subrayado de izquierda a derecha en color rojo.
+
 gracias por leer y saludos!
 
 buen fin de semana!

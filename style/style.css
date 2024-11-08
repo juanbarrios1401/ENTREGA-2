@@ -156,8 +156,28 @@ footer p {
   background-color: #01D608;
   text-decoration: none;
   padding: 0.5%;
+  position: relative;
   border-radius: 5px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.historia a:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background: rgb(255, 54, 64);
+  /*GENERA ANIMACION DE DERECHA A IZQUIERDA*/
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+}
+.historia a:hover:after {
+  /*GENERA ANIMACION DE DERECHA A IZQUIERDA*/
+  transform-origin: left;
+  transform: scaleX(1);
 }
 .historia a:hover {
   color: black;
