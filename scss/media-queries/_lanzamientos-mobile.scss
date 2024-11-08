@@ -1,28 +1,32 @@
-.menu2 {
+@media (min-width:320px) and (max-width: 425px) {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .menu2 {
 
-    .carousel-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        border: 2px solid greenyellow;
-        width: 300px;
+        .carousel-inner {
 
-        .carousel-caption {
-            display: flex;
-            flex-direction: column;
-            h5 {
-                font-size: 0.6rem;
+            border: 2px solid greenyellow;
+            width: 300px;
+
+            .carousel-caption {
+                display: flex;
+                flex-direction: column;
+
+                h5 {
+                    font-size: 0.6rem;
+
+                }
+
+                p {
+                    font-size: 0.7rem;
+                }
+
 
             }
-
-            p {
-                font-size: 0.7rem;
-            }
-
 
         }
-
     }
 }
