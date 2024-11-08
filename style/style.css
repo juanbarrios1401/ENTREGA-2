@@ -534,4 +534,24 @@ footer p {
   border: 1px solid #01D608;
 }
 
+.menu2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu2 .carousel-inner {
+  border: 2px solid greenyellow;
+  width: 300px;
+}
+.menu2 .carousel-inner .carousel-caption {
+  display: flex;
+  flex-direction: column;
+}
+.menu2 .carousel-inner .carousel-caption h5 {
+  font-size: 0.6rem;
+}
+.menu2 .carousel-inner .carousel-caption p {
+  font-size: 0.7rem;
+}
+
 /*# sourceMappingURL=style.css.map */
