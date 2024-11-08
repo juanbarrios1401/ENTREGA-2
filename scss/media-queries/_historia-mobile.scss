@@ -1,0 +1,61 @@
+/*VARIABLE VERDE KAWASAKI*/
+$color-verde: #01D608;
+
+
+.historia {
+    display: flex;
+
+    a {
+        font-size: 0.6rem;
+        color: black;
+        padding: 2px;
+    }
+}
+
+.menuhistoria {
+    ul {
+        justify-content: center;
+        align-items: center;
+
+        a {
+            font-size: 0.6rem;
+            border: 1px solid $color-verde;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.nombremenu1 {
+
+
+    .nombremenu {
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid $color-verde;
+    }
+
+
+}
+
+
+.conteinerh {
+    display: flex;
+    justify-content: center;
+
+    .conteiner-h {
+        background-color: black;
+        border:1px solid $color-verde;
+        .classhistoria1{
+
+            font-size: 0.6rem;
+        }
+
+    }
+
+
+}

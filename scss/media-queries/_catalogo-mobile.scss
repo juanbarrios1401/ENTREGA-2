@@ -1,0 +1,18 @@
+/*VARIABLE VERDE KAWASAKI*/
+$color-verde: #01D608;
+
+
+.motocicletas {
+
+    .motocicletasgrilla {
+
+        grid-template-rows: repeat(3, 120px);
+
+
+
+    }
+
+    label {
+        font-size: 0.7rem;
+    }
+}

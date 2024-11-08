@@ -212,7 +212,7 @@ footer p {
 }
 .conteinerh .conteiner-h {
   color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: black;
   border-radius: 10px;
   padding: 10px;
@@ -389,6 +389,7 @@ footer p {
   body .inicio1 .inicio {
     justify-content: center;
     align-items: center;
+    border: 1px solid #01D608;
   }
   body .inicio1 .inicio h1 {
     font-size: 1.3rem;
@@ -399,9 +400,15 @@ footer p {
   body .inicio1 .inicio p {
     font-size: 0.7rem;
   }
-  body .menu {
-    padding-top: 10px;
-    width: 2%;
+  body .menu ul {
+    justify-content: center;
+    align-items: center;
+  }
+  body .menu ul .listado {
+    font-size: 0.6rem;
+    border: 1px solid #01D608;
+    display: flex;
+    justify-content: space-between;
   }
   body .conteiner {
     padding-top: 10%;
@@ -447,6 +454,63 @@ footer p {
     width: 70%;
     height: 70%;
   }
+  body footer {
+    text-align: center;
+    font-size: 0.6rem;
+  }
+  body footer p {
+    border-top: 1px solid #01D608;
+  }
+}
+/*VARIABLE VERDE KAWASAKI*/
+.historia {
+  display: flex;
+}
+.historia a {
+  font-size: 0.6rem;
+  color: black;
+  padding: 2px;
+}
+
+.menuhistoria ul {
+  justify-content: center;
+  align-items: center;
+}
+.menuhistoria ul a {
+  font-size: 0.6rem;
+  border: 1px solid #01D608;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nombremenu1 .nombremenu {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #01D608;
+}
+
+.conteinerh {
+  display: flex;
+  justify-content: center;
+}
+.conteinerh .conteiner-h {
+  background-color: black;
+  border: 1px solid #01D608;
+}
+.conteinerh .conteiner-h .classhistoria1 {
+  font-size: 0.6rem;
+}
+
+/*VARIABLE VERDE KAWASAKI*/
+.motocicletas .motocicletasgrilla {
+  grid-template-rows: repeat(3, 120px);
+}
+.motocicletas label {
+  font-size: 0.7rem;
 }
 
 /*# sourceMappingURL=style.css.map */

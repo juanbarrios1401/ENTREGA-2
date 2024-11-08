@@ -25,12 +25,13 @@ $color-verde: #01D608;
             .inicio {
                 justify-content: center;
                 align-items: center;
-                
+                border: 1px solid $color-verde;
+
 
                 h1 {
 
                     font-size: 1.3rem;
-                   
+
                 }
 
                 h2 {
@@ -47,16 +48,20 @@ $color-verde: #01D608;
         }
 
 
-
-
-
-
-
         .menu {
-            padding-top: 10px;
-            width: 2%;
+            ul {
+                justify-content: center;
+                align-items: center;
 
-    
+                .listado {
+                    font-size: 0.6rem;
+                    border: 1px solid $color-verde;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+            }
+
         }
 
         .conteiner {
@@ -124,6 +129,15 @@ $color-verde: #01D608;
 
                 }
             }
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.6rem;
+            p{
+                border-top: 1px solid $color-verde;
+            }
+            
         }
     }
 }
