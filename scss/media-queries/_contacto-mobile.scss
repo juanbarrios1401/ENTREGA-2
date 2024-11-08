@@ -1,0 +1,28 @@
+/*VARIABLE VERDE KAWASAKI*/
+$color-verde: #01D608;
+
+.titulocontacto {
+    h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 200px;
+        border: 1px solid $color-verde;
+    }
+}
+
+.seccioncontacto {
+
+
+    border: none;
+    width: 200px;
+
+    .formularioconsulta {
+        width: 200px;
+        border: 1px solid grey;
+        h4{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.3rem;
+            border: 1px solid $color-verde;
+        }
+
+    }
+}

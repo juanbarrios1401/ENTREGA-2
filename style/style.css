@@ -513,4 +513,25 @@ footer p {
   font-size: 0.7rem;
 }
 
+/*VARIABLE VERDE KAWASAKI*/
+.titulocontacto h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 200px;
+  border: 1px solid #01D608;
+}
+
+.seccioncontacto {
+  border: none;
+  width: 200px;
+}
+.seccioncontacto .formularioconsulta {
+  width: 200px;
+  border: 1px solid grey;
+}
+.seccioncontacto .formularioconsulta h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.3rem;
+  border: 1px solid #01D608;
+}
+
 /*# sourceMappingURL=style.css.map */
