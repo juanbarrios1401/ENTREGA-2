@@ -518,7 +518,8 @@ footer p {
   }
   .conteinerh .conteiner-h {
     background-color: black;
-    border: 1px solid #01D608;
+    box-shadow: 0px 0px 20px 1px #01D608;
+    border: none;
   }
   .conteinerh .conteiner-h .classhistoria1 {
     font-size: 0.6rem;
@@ -531,6 +532,10 @@ footer p {
   }
   .motocicletas label {
     font-size: 0.7rem;
+  }
+  .motocicletas img {
+    border: none;
+    box-shadow: 0px 0px 10px 1px #01D608;
   }
 }
 /*VARIABLE VERDE KAWASAKI*/
@@ -563,7 +568,7 @@ NO HE PODIDO MODIFICAR SU TAMAÑO DE LETRA, NI QUE SE MUETREN*/
     align-items: center;
   }
   .menu2 .carousel-inner {
-    border: 2px solid #01D608;
+    box-shadow: 0px 0px 10px 5px #01D608;
     width: 300px;
     border-radius: 5px;
   }

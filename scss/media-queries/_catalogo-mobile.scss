@@ -15,6 +15,13 @@ $color-verde: #01D608;
 
         label {
             font-size: 0.7rem;
+           
+        }
+
+        img {
+            border: none;
+            box-shadow: 0px 0px 10px 1px $color-verde;
+            
         }
     }
 }

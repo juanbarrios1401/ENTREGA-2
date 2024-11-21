@@ -1,18 +1,18 @@
-Hola profes, como estan?.
+Hola profes. Buenas noches.
 
-Profes, ultimamente por cuestiones personales y de laburo, no estoy teniendo mucho tiempo. Asi y todo e tratado de cumplir con todos los puntos y de usar aunque sea 1, o pocas veces variables, mixin, etc.
+Voy a intentar ser breve sobre esta entrega.
+Tome nota acerca de los detalles a considerar con respecto a la entrega número 3; con lo cual he realizado dichas sugerencias.
 
-Con respecto a los queries, he hecho la parte mobile hasta 425px; no he llegado y si ya estas corrigiendo y no esta, es porque tampoco llegue!.
-Asi y todo, si esta mal o bien, no lo se, fui rescatando informacion en los grupos de como y lo que habia que entregar y obviamente leyendo lo q pide coder.
+Cuales?
 
-Con el tema de variables, mixin y extend, voy a lo mismo.No me resultaron dificiles de usar, pero al tener poco tiempo, casi fue como mudar lo de css a sass. Si lo he utilizado a mixin en Grids del apartado "CATALOGO".
-Por otra parte las variables la he usado para 1 color, en este caso "color-verde", que hace referencia al verde de kawasaki.
+-Sombreado en las imagenes para fondos oscuros (VISTA MOBILE).
+-Que el nav bar sea constante en todos los HTMLs.
+-Unificar las carpeta de los HTMLs (utilice el nombre Pages como se indico en la correcion).
 
-Por que no lo puse en una carpeta aparte y lo declare en cada .scss?
-porque tengo problemas con los registros en mi pc, y fue muy tedioso hacer funca cada parcialL; a tal punto que en un momento se habia roto todo y tuve q volver a empezar sin haber guardado en la nube de git!.
+Con respecto a los comentarios, no he comentado mucho Eso es cierto, practicamente nada, pero creo que el código al no ser tan extenso, es bastante intuitivo.
 
-Por otra parte la parte animada la he hecho en el enlace de "volver a Inicio". Esta misma es con un subrayado de izquierda a derecha en color rojo.
+A la hora de SEO, no habia muchas palabras magicas que utilizar, salvo una "Kawasaki", con lo cual se lo he puesto a todo basicamente.
 
-gracias por leer y saludos!
+Tema de hosting, he tenido problemas, con lo cual he optado por utilizar Github Pages.
 
-buen fin de semana!
+Saludos profes, mil gracias por todo lo que se abarco. Me dejaron una gran pero gran base y extensos conocimientos!!
